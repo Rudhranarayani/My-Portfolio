@@ -1,0 +1,114 @@
+.hero-banner {
+    padding: 8vmax 0;
+    background-image: linear-gradient(#f2f7fc00 40%, #712dae38 90%);
+}
+
+.hero-banner .hb-innercontainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.hero-banner .hb-innercontainer .hb-left-content{
+    
+}
+
+.hero-banner .hb-innercontainer .hb-right-content{
+    
+}
+
+/* project */
+
+.my-works {
+    position: relative;
+}
+
+.my-works .nav-list-project-block {
+    position:sticky;
+}
+
+.my-works .projects{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+}
+
+.my-works .projects .project-slider-block{ 
+    display: flex;
+    column-gap: 16px;
+    padding-top: 8rem;
+}
+
+.my-works .projects .project-slider-block:nth-child(1){ 
+    padding-top: 4rem;
+}
+
+.my-works .projects .project-slider-block .flex-order{ 
+    order :02;
+}
+
+.my-works .projects .project-slider-block .title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.my-works .projects .project-slider-block .title{ 
+    display: flex;
+    flex-direction: column;
+}
+
+.my-works .projects .project-slider-block .title .titles-roles{ 
+    display: flex;
+}
+
+.my-works .projects .project-slider-block .title .titles-roles p{ 
+    position: relative;
+    padding: 0 16px;
+    font-weight:600;
+}
+
+.my-works .projects .project-slider-block .title .titles-roles p::before{ 
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: var(--greyColorShade05);
+    left: 0;
+    border-radius: 100%;
+    top: 8px;
+}
+
+/* work-together blog */
+
+.work-together .contact-info-block {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.work-together .contact-info-block .contact-info-items{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-together .contact-info-block .contact-info-items h5 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.work-together .contact-info-block .contact-info-items .contact-tool {
+    display: flex;
+    column-gap: 16px;
+}
+
+.work-together .contact-info-block .contact-info-items .contact-tool a img{
+    filter: grayscale(100%);
+    transition: ease-in 0.3s;
+    width:100%;
+    height: 32px;
+}
+
+.work-together .contact-info-block .contact-info-items .contact-tool a img:hover{
+    filter: grayscale(0%);
+}
